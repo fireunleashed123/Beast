@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Beast" name="Beast" version="0.01" provider-name="fireunleashed123">
+    <extension point="xbmc.addon.repository" name="Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/fireunleashed123/Beast/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/fireunleashed123/Beast/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/fireunleashed123/Beast/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Beast</summary>
+        <description>outdated addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
